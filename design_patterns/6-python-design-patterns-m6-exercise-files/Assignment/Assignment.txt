@@ -1,0 +1,11 @@
+You work for a pizza shop.  There are many kinds of pizzas on the menu.  However they all have the same basic
+composition.  There's a crust (regular or whole wheat, thick or thin), a base (tomato sauce or white sauce), 
+meat toppings (pepperoni, sausage, bacon), vegetable toppings (tomatoes, onions, peppers, olives) 
+and cheese toppings (mozarella, provolone, quattro formaggi)
+
+You have a favorite (whatever you like -- hey! you work there!) but know that other customers prefer other 
+kinds.  One customer favorite is the whole-wheat, thin crust pizza with a tomato base, sausage, onions and 
+olives topped with provolone.
+
+You need to build a program that will construct and display pizza objects.  Be sure to include your favorite
+and at least that one customer favorite, though you know other combinations will be asked for in the future.

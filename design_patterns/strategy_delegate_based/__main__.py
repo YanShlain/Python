@@ -1,7 +1,6 @@
-from strategy_class_based.fedex_strategy import FedExStrategy
-from strategy_class_based.order import Order
-from strategy_class_based.shipper import Shipper
-from strategy_class_based.shipping_cost import ShippingCost
+from strategy_delegate_based.order import Order
+from strategy_delegate_based.shipper import Shipper
+from strategy_delegate_based.shipping_cost import ShippingCost
 
 
 # Test Federal Express shipping
@@ -30,3 +29,5 @@ order = Order(Shipper.FedEx)
 cost_calculator = ShippingCost(lambda order: 5.00)
 cost = cost_calculator.shipping_cost(order)
 assert cost == 5.00
+
+print("Test passed")
